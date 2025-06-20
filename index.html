@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Caterpillars' Day Care</title>
+  <link rel="icon" href="logo.png" type="image/png">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background-color: #fffaf0;
+      color: #444;
+    }
+    header {
+      background-color: #ffcccb;
+      padding: 10px;
+      text-align: center;
+    }
+    header img {
+      height: 60px;
+      vertical-align: middle;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+      color: #444;
+    }
+    nav {
+      background: #f8d5f3;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('hero.jpg') no-repeat center center;
+      background-size: cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 1px 1px 4px #000;
+      font-size: 2em;
+    }
+    .intro {
+      padding: 40px 20px;
+      background-color: #fff0f5;
+    }
+    .intro h2 {
+      text-align: center;
+      font-size: 2em;
+      color: #d95c5c;
+    }
+    .intro p, .intro ul {
+      max-width: 800px;
+      margin: 10px auto;
+      line-height: 1.6;
+      font-size: 1.1em;
+    }
+    .features, .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+      gap: 20px;
+    }
+    .feature-card {
+      background: #ffe4e1;
+      border-radius: 12px;
+      padding: 15px;
+      width: 300px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .feature-card h3 {
+      color: #ff69b4;
+    }
+    .feature-card ul {
+      text-align: left;
+      padding-left: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+    #status {
+      text-align: center;
+      font-size: 1.2em;
+      margin: 20px 0;
+    }
+    footer {
+      background: #f4a4a4;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      .features, .gallery {
+        flex-direction: column;
+        align-items: center;
+      }
+      .feature-card, .gallery img {
+        width: 90% !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Happy Caterpillars Logo">
+    <h1>Happy Caterpillars Day Care</h1>
+  </header>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#features">Features</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#location">Location</a>
+  </nav>
+  <section class="hero">
+    Where little ones grow, play & smile!
+  </section>
+  <section class="intro" id="about">
+    <h2>🐛 Welcome to Happy Caterpillars Day Care!</h2>
+    <p><strong>Where Little Feet Make Big Adventures 💫</strong></p>
+    <p>At Happy Caterpillars, every giggle, messy handprint, and tiny “first” matters. We believe that childhood is a magical time meant to be cherished, celebrated, and nurtured with love. Here’s a little peek into what makes our day care a second home for your little ones.</p>
+    <h3>🍼 Our Story</h3>
+    <p>Happy Caterpillars started with a simple dream — to create a place where children are not just looked after, but truly loved, guided, and inspired. We believe every child is a unique little caterpillar, ready to blossom into a beautiful butterfly with the right care and attention.</p>
+    <h3>🧸 Our Philosophy</h3>
+    <ul>
+      <li>❤ Love freely</li>
+      <li>📚 Learn playfully</li>
+      <li>😂 Laugh loudly</li>
+    </ul>
+    <p>Because we know learning sticks best when it’s wrapped in joy, songs, stories, cuddles, and creativity.</p>
+    <h3>🌼 What Makes Us Special</h3>
+    <ul>
+      <li>Tiny Hugs & Big Hearts</li>
+      <li>Play-Based Learning</li>
+      <li>Safe & Snuggly Spaces</li>
+      <li>Little Celebrations</li>
+    </ul>
+    <h3>💛 Our Promise</h3>
+    <p>We promise to give your child a day full of smiles, wonder, hugs, and the gentle beginnings of lifelong learning. Because here, every child is family — and every day is an adventure waiting to unfold.</p>
+    <p><strong>🎉 Weekend Special:</strong> Saturday class for kids up to 13 years old!</p>
+  </section>
+  <section id="status"></section>
+  <section id="features" class="features">
+    <div class="feature-card"><h3>1. Safe & Nurturing Environment</h3><ul><li>Child-proofed facilities</li><li>Proper sanitization</li><li>Secure check-in/check-out system</li></ul></div>
+    <div class="feature-card"><h3>2. Play-Based Learning</h3><ul><li>Thematic activity zones</li><li>Montessori-inspired toys</li><li>Sensory play & storytelling</li><li>Daily interactive lessons</li></ul></div>
+    <div class="feature-card"><h3>3. Experienced & Loving Staff</h3><ul><li>Certified caregivers</li><li>Low child-to-caregiver ratio</li><li>Regular staff training</li></ul></div>
+    <div class="feature-card"><h3>4. Daily Routine & Structure</h3><ul><li>Circle time</li><li>Outdoor playtime</li><li>Nap and quiet time</li><li>Music, dance, and free play</li></ul></div>
+    <div class="feature-card"><h3>5. Creative Activities & Celebrations</h3><ul><li>Art & craft sessions</li><li>Festival celebrations</li><li>Birthday corners</li><li>Dress-up and puppet shows</li></ul></div>
+    <div class="feature-card"><h3>6. Parent Communication</h3><ul><li>Daily updates</li><li>Monthly progress reports</li><li>Open house days</li><li>Parent feedback system</li></ul></div>
+    <div class="feature-card"><h3>7. Flexible Timings</h3><ul><li>Half-day & full-day</li><li>Weekend care</li><li>Drop-in care</li></ul></div>
+  </section>
+  <section id="gallery" class="gallery">
+    <img src="play-time.jpg" alt="Play time">
+    <img src="art-class.jpg" alt="Art class">
+    <img src="lunch-time.jpg" alt="Lunch time">
+  </section>
+  <section id="location">
+    <h2 style="text-align: center;">Find Us on the Map</h2>
+    <div style="display: flex; justify-content: center;">
+      <iframe src="https://www.google.com/maps/embed?pb=YOUR_EMBED_URL_HERE"
+              width="90%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+  <section id="contact">
+    <h2 style="text-align:center;">📞 Contact Us</h2>
+    <p style="text-align:center;">Call: <strong>+91 94888 01096</strong> | Email: <strong>happycaterpillarsofficial@gmail.com</strong></p>
+  </section>
+  <footer>
+    &copy; 2025 Happy Caterpillars Day Care. All rights reserved.
+  </footer>
+  <script>
+    const now = new Date();
+    const hour = now.getHours();
+    const isOpen = (hour >= 9 && hour < 17);
+    document.addEventListener("DOMContentLoaded", () => {
+      const status = document.getElementById("status");
+      status.textContent = isOpen ? "🟢 We're Open Now!" : "🔴 Sorry, We're Closed.";
+    });
+  </script>
+</body>
+</html>
